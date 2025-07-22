@@ -11,6 +11,12 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:fontFamily">@font/amiko</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="TextAppearance.Quote" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#073b4c</item>
+        <item name="android:padding">8dp</item>
     </style>
 </resources>
